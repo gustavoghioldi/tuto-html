@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> --- sumadora --- </title>
+</head>
+<body>
+    <!--
+        esto es un comentario
+    -->
+</body>
+<script>
+    var num1 = prompt("Primer Numero:")
+    console.log("num1: "+num1)
+
+    var num2 = prompt("Segundo numero: ")
+    console.log("num2 type: "+typeof(num2))
+
+    // un comentario de JavaScript
+    // float <-- numeros de punto flotante (1.45)
+    // int <-- numeros enteros (22)
+    // string <-- cadenas de caracteres ("hola mundo 12")("12")
+    // boolean <-- true or false
+    var i_num1 = parseFloat(num1)
+
+    var result = i_num1 + parseFloat(num2)
+    var rta = ""
+    // pregunta si es mayor a 1000
+    if (result > 1000) {
+        // en caso afirmativo
+        rta = "resultado: "+result+" es mayor a mil" 
+    } else {
+        // si no es afirmativo
+       rta =  "resultado: "+result+" es menor a mil" 
+    }
+    alert(rta)
+</script>
+</html>
