@@ -16,3 +16,9 @@ crear varias intancias y probar diferentes casos de uso
 ejericio2:
 Dado el array [1, 23, 33, 44, 54, 12, 11, 9000, 7, 6, 5, 22, "coco", 30, "pepe"] , realizar un loop que identifique que valores son pares , cuales impares, y cuales no se puede calculr esto. 
 
+ejecicio3:
+hacer una funcion que acepte como parametos los simbolos (+ o -) y 2 numeros, y que devuelva la suma o la resta dependiendo del simbolo que se le pase. pista --> function caluclate(symbol, n1, n2)
+
+ejercios4:
+hacer una funcion que sume todos los numeros multiplo de 3 entre 2 numeros que se pacen por parametro.
+pista --> multipl3 (n1, n2) 
