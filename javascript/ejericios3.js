@@ -13,3 +13,4 @@ function calc (symbol, n1, n2) {
 
 console.log(`suma de 3 y 4 = ${calc("+", 3, 4)}`)
 console.log(`resta de 3 y 4 = ${calc("-", 3, 4)}`)
+calc("t", 3, 4)

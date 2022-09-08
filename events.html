@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>::: events :::</title>
+</head>
+<body>
+    <div class="forms">
+        <form method="get" action="receive.html">
+            <table border="10">
+                <tr>
+                    <td> nombre:</td> <td><input id="name" type="text" name="name"/></td>
+                </tr>
+            <tr>
+                <td> edad : </td> <td><input type="number" name="age" id="age"/></td>
+            </tr>
+            <tr>
+                <td> pass : </td> <td><input type="password" name="pass" id="pass"/></td>
+            </tr>
+            <tr>
+                <td> date:</td> <td><input type="date" name="date" id="date"/></td>
+            </tr>
+            <tr>
+                <td> color:</td> <td><input type="color" name="color" id="color"/></td>
+            </tr>
+            <input type="hidden" value="SARAZA" name="hiden" id="hiden"/>
+            <tr>
+                <!--onclick="push_button()"-->
+                <td> <input type="button" value="Mandame" id="bt" /> </td>
+            </tr>
+        </table>
+        </form>
+        
+        <div >
+            <h1 id="rta"></h1>
+        </div>
+</body>
+<script src="events.js"></script>
+</html>
