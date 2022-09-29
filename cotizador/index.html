@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>::: cotizador :::</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td>CCL</td>
+            <td>MEP</td>
+            <td>Solidario</td>
+            <td>Oficial</td>
+            <td>Blue</td>
+            <td>CCB</td>
+        </tr>
+        <tr>
+            <td><div id="ccl">1</div></td>
+            <td><div id="mep">2</div></td>
+            <td><div id="soli">3</div></td>
+            <td><div id="ofi">4</div></td>
+            <td><div id="blue">5</div></td>
+            <td><div id="ccb">6</div></td>
+        </tr>
+    </table>
+
+    <table border="1">
+        <tr>
+            <td>Pesos</td>
+            <td>tipo</td>
+            <td>Resultado</td>
+            
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <input name="ars" id="ars" type="number" />
+            </td>
+            <td>
+                <select id="qType" name="qType">
+                    <option value="ccl">CCL</option>
+                    <option value="mep">MEP</option>
+                    <option value="ccb">CCB</option>
+                    <option value="solidario">Solidario</option>
+                    <option value="oficial">Oficial</option>
+                    <option value="blue">Blue</option>
+                  </select>
+            </td>
+            <td>
+                <h4>
+                    <div id="result">
+                    </div>
+                </h4>
+            </td>
+            <td>
+                <input type="button"  value="Calcular" id="calc" onclick="clacView()">
+            </td>
+        </tr>
+    </table>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="index.js"></script>
+<script src="calc.js"></script>
+</html>
