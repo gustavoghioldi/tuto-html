@@ -20,5 +20,5 @@ function asignValuesInView(ccl, mep, soli, ofi, blue, ccb) {
     var blueId = document.getElementById("blue");
     blueId.innerHTML = `<h4>$ ${blue}<h4>`;    
     var ccbId = document.getElementById("ccb");
-    ccbId.innerHTML = `<h4>$ ${ccb}<h4>`;                
+    ccbId.innerHTML = `<h4>$ ${ccb}<h4>`;    
 }
